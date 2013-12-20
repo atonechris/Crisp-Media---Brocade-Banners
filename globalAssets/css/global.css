@@ -1,0 +1,31 @@
+*, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url('../img/background.jpeg');
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+
+
+#header{
+	height:50px;
+	background: #00608a;
+	width: 100%;
+	position: absolute;
+	top:0;
+	z-index: 99;	
+	padding-left: 22px;
+	padding-top: 9px;
+}
+
+#projectTitle{
+	font-family: 'Helvetica';
+	color: #fff;
+	float: right;
+	margin-right: 46px;
+	margin-top: 10px;
+}
+
