@@ -1,0 +1,176 @@
+<html>
+<head>
+<title> Crisp Playground </title>
+
+
+<link type="text/css" rel="stylesheet" media="all" href="../../globalAssets/css/global.css">
+<link type="text/css" rel="stylesheet" media="all" href="animate.min.css">
+
+
+<style type="text/css">
+
+
+#phoneFrame{
+	background-image: url('images/iphone.png');
+	margin: auto;
+	height: 680px;
+	position: static;
+	padding-top: 115px;
+	padding-left: 43px;
+	background-repeat: no-repeat;
+
+}
+
+#phoneViewport{
+	position: absolute;
+	top: 113px;
+	width:299px;
+	height: 526px;
+	background-image:url('images/toms.jpg');
+	background-repeat: no-repeat;
+	background-color: #000;
+	background-size: 300px;
+	overflow: hidden;
+}
+
+
+
+#bottom{
+	background-color: black;
+	height: 25px;
+	position: absolute;
+	bottom: 1px;
+	z-index: 100;
+}
+
+#logo{
+	width:78px;
+	height:36px;
+	background-image: url('images/logo.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	  -webkit-animation-duration: 4s;
+	  -webkit-animation-timing-function: ease;
+	  -webkit-animation-fill-mode: both;
+	  -webkit-animation-name: tada;
+	  -webkit-animation-delay: 1.5s
+	  -moz-animation-duration: 4s;
+	  -moz-animation-timing-function: ease;
+	  -moz-animation-fill-mode: both;
+	  -moz-animation-name: tada;
+	  animation-duration: 4s;
+	  animation-timing-function: ease;
+	  animation-fill-mode: both;
+	  animation-name: tada;
+}
+
+#world{
+  	width: 108px;
+  	height: 17px;
+  	position: absolute;
+	left: 8px;;
+	top: 8px;
+  	background-image: url('images/best_in.png');
+	background-repeat: no-repeat;
+	 -webkit-animation: fadein 3s ease-in 7s forwards; /* Safari and Chrome */
+}
+
+#ethernet{
+  	width: 108px;
+  	height: 17px;
+  	position: absolute;
+	left: 7px;
+	top: 28px;
+  	background-image: url('images/ethernet.png');
+	background-repeat: no-repeat;
+	-webkit-animation-name: bounce;
+    -moz-animation-name: bounce;
+    -o-animation-name: bounce;
+    animation-name: bounce;
+}
+
+#learn{
+  	width: 92px;
+  	height: 13px;
+  	position: absolute;
+	left: 115px;
+	top: 27px;
+  	background-image: url('images/learn.png');
+	background-repeat: no-repeat;
+	  -webkit-transform: translate3D(0,0,0);
+	  -webkit-animation-duration: 6s;
+	  -webkit-animation-timing-function: ease;
+	  -webkit-animation-fill-mode: both;
+	  -webkit-animation-name: bounceInDown;
+	  -moz-animation-duration: 6s;
+	  -moz-animation-timing-function: ease;
+	  -moz-animation-fill-mode: both;
+	  -moz-animation-name: bounceInDown;
+	  animation-duration: 6s;
+	  animation-timing-function: ease;
+	  animation-fill-mode: both;
+	  animation-name: bounceInDown;
+}
+
+#banner{
+	background: #000;
+	height: 50px;
+	width: 299px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 477px;
+	margin-left: 0;
+	-webkit-transform: translate3D(0,0,0);
+	  -webkit-animation-duration: 1s;
+	  -webkit-animation-timing-function: ease;
+	  -webkit-animation-fill-mode: both;
+	  -webkit-animation-name: rollIn;
+	  -moz-animation-duration: 1s;
+	  -moz-animation-timing-function: ease;
+	  -moz-animation-fill-mode: both;
+	  -moz-animation-name: rollIn;
+	  animation-duration: 1s;
+	  animation-timing-function: ease;
+	  animation-fill-mode: both;
+	  animation-name: rollIn;
+
+}
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<div id="header">
+	<img src="../../globalAssets/img/labs.png">
+	
+	<div id="projectTitle">
+		Brocade 
+	</div>
+</div>
+
+<div id="phoneFrame">
+	<div id="phoneViewport">
+		
+
+
+<div id="banner">
+	<div id="logo" class="animate"></div>
+	<div id="world" class="animate"></div>
+	<div id="ethernet" class="animate"></div>
+	<div class="animate rollIn" id="learn"></div>
+</div>
+
+	</div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</body>
+</html>
